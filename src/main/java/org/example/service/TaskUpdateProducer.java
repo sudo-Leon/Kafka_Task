@@ -1,5 +1,6 @@
-package org.example;
+package org.example.service;
 
+import org.example.model.TaskUpdateEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
